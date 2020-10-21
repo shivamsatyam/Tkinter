@@ -1,7 +1,8 @@
 from tkinter import *
 
 window = Tk()
-
+window.title("ketlogger") 
+window.geometry ("500x600") 
 def kgConverter():
     kgToGram = float(entry1Value.get()) * 1000
     kgToPounds = float(entry1Value.get()) * 2.20462
